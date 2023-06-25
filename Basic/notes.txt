@@ -74,4 +74,3 @@ login cookies can only be used at their paths and not in the other paths.hence s
    related to Bank of America will be shared to that bad server so this means that if we click any hyperlink 
    related to any particular website then that particular website cookie will be shared to the bad server as 
    well so this is called as cross site request forgery
-2.
