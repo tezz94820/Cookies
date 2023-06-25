@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Create Cookie</button>
+    <a href="https://example.com/">Go to example.com</a>
+    <a href="https://www.example.com/">Go to www.example.com</a>
+    <br>
+    <a id="ya" href="https://www.youtube.com/">Youtube </a>
+
+    <script>
+        const btn = document.getElementById('btn');
+        btn.addEventListener('click', (e) =>{
+            document.cookie = "Name=tejas";
+        })
+        //steal cookies of youtube
+        const ya = document.getElementById('ya');
+        ya.addEventListener('click', (e) =>{
+            console.log(document.cookie)
+        })
+    </script>
+</body>
+</html>
